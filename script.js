@@ -5,10 +5,6 @@ document.getElementById("userForm").addEventListener("submit", function(event){
 	const name = document.getElementById("name").value;
 	const age = document.getElementById("age").value;
 
-	if(!name || !age){
-		alert("Please enter valid details");
-		return;
-	}
 		new Promise((resolve, reject)=>{
 			setTimeout(()=>{
 				if(age>=18){
