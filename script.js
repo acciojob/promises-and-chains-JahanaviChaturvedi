@@ -10,7 +10,7 @@ document.getElementById("btn").addEventListener("click", (e)=> {
       if (age >= 18) {
         resolve(`Welcome, ${name}. You can vote.`);
       } else {
-        reject(`Oh sorry ${name}.You aren't old enough.`);
+        reject(`Oh sorry ${name}. You aren't old enough.`);
       }
     }, 4000);
   })
